@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.rezabidar.onlineorder" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".OrderListActivity" >
+        </activity>
+        <activity android:name=".OrderViewActivity" >
+        </activity>
+        <activity android:name=".ProductCategoryActivity" >
+        </activity>
+        <activity android:name=".ProductListActivity" >
+        </activity>
+        <activity android:name=".FactorListActivity" >
+        </activity>
+        <activity android:name=".BasketActivity" >
+        </activity>
+        <activity android:name=".ContactUsActivity" >
+        </activity>
+        <activity
+            android:name=".ProductListTab"
+            android:label="@string/title_activity_product_list_tab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ir.rezabidar.onlineorder.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ProductShowTab"
+            android:label="@string/title_activity_product_show_tab"
+            android:parentActivityName=".ProductListTab"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ir.rezabidar.onlineorder.ProductListTab" />
+        </activity>
+        <activity android:name=".ScoreActivity" >
+        </activity>
+        <activity android:name=".TestActivity" >
+        </activity>
+        <activity android:name=".LoginActivity" >
+        </activity>
+        <activity
+            android:name=".CompanyListActivity"
+            android:label="@string/title_activity_company_list"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">سفارشگیر آنلاین</string>
+    <string name="price">قیمت : %d تومان</string>
+    <string name="dialog_fire_missiles">Fire missles ?</string>
+    <string name="fire">ذخیره</string>
+    <string name="cancel">برگشت</string>
+    <string name="title_activity_product_list_tab">لیست محصولات</string>
+    <string name="action_settings">امتیاز شما</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_product_show_tab">نمایش محصول</string>
+    <string name="emtiaz">100 امتیاز</string>
+    <string name="gotobasket">مثلن میره تو سبد خرید</string>
+    <string name="title_activity_company_list">انتخاب شرکت</string>
+    <string name="add_visitor_code">کد ویزیتور را وارد نمایید</string>
+    <string name="empty_list">لیست خالی است</string>
+    <string name="empty_company_list">هیچ شرکتی در لیست شما نیست</string>
+    <string name="empty_basket_list">سبد خرید شما خالی میباشد</string>
+    <string name="empty_products_list">محصولی در این دسته وجود ندارد</string>
+</resources>
